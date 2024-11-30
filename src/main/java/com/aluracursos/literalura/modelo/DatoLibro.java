@@ -9,4 +9,5 @@ public record DatoLibro(@JsonAlias("title") String titulo,
                         @JsonAlias("authors") List<DatoAutor> autores,
                         @JsonAlias("languages") List<String> idiomas,
                         @JsonAlias("download_count") Double cantidadDescargas) {
+
 }
